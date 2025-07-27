@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 1rem;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+  color: #ffeb3b;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffeb3b;
+  text-decoration: underline;
+}
+
+.navbar .form-control {
+  border-radius: 12px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+}
+
+.navbar .btn {
+  border-radius: 12px;
+  background-color: #00c853;
+  border: none;
+  font-weight: 600;
+}
+
+.navbar .btn:hover {
+  background-color: #007e33;
+}
+
+@media (max-width: 576px) {
+  .navbar .form-control,
+  .navbar .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Form container */
+.form-container {
+  padding: 2rem;
+  border-radius: 25px;
+  background: #ffffff;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.btn-primary {
+  width: 100%;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #5e35b1, #1e88e5);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+/* Table Styles */
+.table-container {
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  font-size: 0.95rem;
+}
+
+thead {
+  background-color: #6a11cb;
+  color: #fff;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons a,
+.action-buttons form {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.action-buttons .btn {
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Add transition to buttons */
+.btn {
+  transition: all 0.3s ease;
+}
