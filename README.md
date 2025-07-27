@@ -2,7 +2,7 @@
 
 A simple Node.js CRUD application using Express, MySQL, and EJS templating. This project allows you to add, view, edit, delete, and search users by email.
 
-Deployment Link :- https://node-js-sql-crud-pr.onrender.com
+Deployment Link :- 
 
 ## Features
 - Add new users (email, password)
